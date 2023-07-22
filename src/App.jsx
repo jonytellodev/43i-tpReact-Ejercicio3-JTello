@@ -1,11 +1,12 @@
 import "./App.css";
+import HelloMessege from "./components/HelloMessege";
 
 function App() {
+  
+
   return (
     <>
-      <div>
-        <h1>Codigo Limpio</h1>
-      </div>
+      <HelloMessege titleNew="Hello my Friend!"></HelloMessege>
     </>
   );
 }
